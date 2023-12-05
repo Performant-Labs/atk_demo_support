@@ -1,0 +1,41 @@
+{
+  "name": "performant-labs/atk_demo_support",
+  "description": "Configure site to demonstrate Automated Testing Kit.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://drupal.org/project/automated_testing_kit",
+  "authors": [
+    {
+      "name": "André Angelantoni",
+      "homepage": "https://www.drupal.org/u/aangel",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/automated_testing_kit",
+    "slack": "https://drupal.slack.com/archives/C05DSFVJMD1",
+    "source": "https://git.drupalcode.org/project/automated_testing_kit"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.1",
+    "drupal/admin_toolbar": "^3.4",
+    "drupal/admin_toolbar_tools": "^3.4",
+    "drupal/backup_migrate": "^5.0",
+    "drupal/core-composer-scaffold": "^10.1",
+    "drupal/core-project-message": "^10.1",
+    "drupal/core-recommended": "^10.1",
+    "drupal/default_content": "^2.0",
+    "drupal/gin": "^3.0",
+    "drupal/gin_login": "^2.0",
+    "drupal/gin_toolbar": "^1.0",
+    "drupal/qa_accounts": "^1.0",
+    "drupal/pathauto": "^1.12",
+    "drupal/redirect": "^1.9",
+    "drupal/symfony_mailer": "^1.4",
+    "drupal/token": "^1.13",
+    "drupal/webform": "^6.2",
+    "drupal/xmlsitemap": "^1.5",
+  }
+}
