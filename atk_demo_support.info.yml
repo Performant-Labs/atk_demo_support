@@ -1,0 +1,24 @@
+name: 'Automated Testing Kit Demo Support'
+type: module
+description: 'Configure site to demonstrate Automated Testing Kit.'
+package: 'Automated Testing Kit'
+core_version_requirement: ^9 || ^10
+project: 'automated_testing_kit'
+version: '1.0.0'
+dependencies:
+  - admin_toolbar:admin_toolbar
+  - admin_toolbar_tools:admin_toolbar_tools
+  - automated_testing_kit:automated_testing_kit
+  - default_content:default_content
+  - gin_login:gin_login
+  - gin_toolbar:gin_toolbar
+  - pathauto:pathauto
+  - qa_accounts:qa_accounts
+  - redirect:redirect
+  - symfony_mailer:symfony_mailer
+  - token:token
+  - webform:webform
+  - xmlsitemap:xmlsitemap
+default_content:
+  node:
+    - 78b457c5-e0a0-4a9e-b7b6-6fb3a7ed2a7c
